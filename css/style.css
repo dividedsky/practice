@@ -1,0 +1,213 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  /* background-image: url("/home/justin/prog/portfolio/death_valley.jpg");
+    background-position: center;
+    background-color: gray;
+    background-size: cover; */
+  height: 100%;
+  background: #48ad6f;
+  background: #39668f;
+  background: -moz-linear-gradient(left, #39668f 0%, #4e4e66 54%, #4e4e66 80%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #39668f), color-stop(54%, #4e4e66), color-stop(80%, #4e4e66));
+  background: -webkit-linear-gradient(left, #39668f 0%, #4e4e66 54%, #4e4e66 80%);
+  background: -o-linear-gradient(left, #39668f 0%, #4e4e66 54%, #4e4e66 80%);
+  background: -ms-linear-gradient(left, #39668f 0%, #4e4e66 54%, #4e4e66 80%);
+  background: linear-gradient(to right, #39668f 0%, #4e4e66 54%, #4e4e66 80%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#39668f', endColorstr='#4e4e66', GradientType=1);
+}
+.container {
+  font-size: 1.6rem;
+  max-width: 45%;
+  margin: 0 auto;
+  color: #ca6616;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .hero-img {
+  width: auto;
+  height: 50rem;
+  border: 1px solid blue;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 15px;
+}
+header {
+  background-color: #2e2e3a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  height: 6rem;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 0 0 10px 10px;
+}
+header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  font-size: 1.6rem;
+  width: 60%;
+  border: 2px solid yellow;
+}
+header nav a {
+  text-decoration: none;
+  color: white;
+  padding: 0 7%;
+}
+header nav a:hover {
+  font-weight: bold;
+  color: green;
+}
+header .nav-img {
+  transform: rotate(-90deg);
+  height: 100%;
+  width: auto;
+  border-radius: 50%;
+}

@@ -1,0 +1,97 @@
+@import 'reset.less';
+@import 'variables.less';
+html {
+    font-size: 62.5%;
+}
+
+body {
+    /* background-image: url("/home/justin/prog/portfolio/death_valley.jpg");
+    background-position: center;
+    background-color: gray;
+    background-size: cover; */
+    height: 100%;
+    background: rgba(72,173,111,1);
+background: rgba(57,102,143,1);
+background: -moz-linear-gradient(left, rgba(57,102,143,1) 0%, rgba(78,78,102,1) 54%, rgba(78,78,102,1) 80%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(57,102,143,1)), color-stop(54%, rgba(78,78,102,1)), color-stop(80%, rgba(78,78,102,1)));
+background: -webkit-linear-gradient(left, rgba(57,102,143,1) 0%, rgba(78,78,102,1) 54%, rgba(78,78,102,1) 80%);
+background: -o-linear-gradient(left, rgba(57,102,143,1) 0%, rgba(78,78,102,1) 54%, rgba(78,78,102,1) 80%);
+background: -ms-linear-gradient(left, rgba(57,102,143,1) 0%, rgba(78,78,102,1) 54%, rgba(78,78,102,1) 80%);
+background: linear-gradient(to right, rgba(57,102,143,1) 0%, rgba(78,78,102,1) 54%, rgba(78,78,102,1) 80%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#39668f', endColorstr='#4e4e66', GradientType=1 );
+}
+
+
+.container {
+    font-size: 1.6rem;
+    max-width: 45%;
+    margin: 0 auto;
+    color: @main-font-color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+        .hero-img {
+        width: auto;
+        height: 50rem;
+        border: 1px solid blue;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        }
+    .hero {
+
+    }
+}
+
+h1,h2,h3,h4,h5,h6,{
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+}
+
+header {
+        background-color: #2e2e3a;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        height: 6rem;
+        width: 80%;
+        margin: 0 auto;
+        border-radius: 0 0 10px 10px;
+
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        font-size: 1.6rem;
+        width: 60%;
+        border: 2px solid yellow;
+
+        a {
+            text-decoration: none;
+            color: white;
+            padding: 0 7%;
+
+            &:hover {
+                font-weight: bold;
+                color: green;
+            }
+        }
+    }
+
+    .nav-img {
+        transform: rotate(-90deg);
+        height: 100%;
+        width: auto;
+        border-radius: 50%;
+        
+    }
+}
