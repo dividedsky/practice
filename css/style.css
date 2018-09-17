@@ -147,19 +147,42 @@ body {
 }
 .container {
   font-size: 1.6rem;
-  max-width: 45%;
+  max-width: 880px;
   margin: 0 auto;
   color: #ca6616;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.container .hero-img {
+.container .img-div {
+  margin-bottom: 30px;
+  color: black;
+  font-size: 1rem;
+}
+.container .img-div .hero-img {
   width: auto;
-  height: 50rem;
   border: 1px solid blue;
   margin-top: 30px;
-  margin-bottom: 30px;
+  height: 30rem;
+}
+.container .hero {
+  border-bottom: 1px solid black;
+  padding-bottom: 15px;
+}
+.container .main-content {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.container .main-content .block {
+  width: 47%;
+  border: 2px dashed blue;
+  margin: 15px 0;
+}
+.container .main-content .block .img-div img {
+  width: 100%;
+  height: auto;
 }
 h1,
 h2,
@@ -189,7 +212,7 @@ header {
 }
 header nav {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   height: 50px;
   font-size: 1.6rem;
